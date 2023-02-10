@@ -14,3 +14,4 @@ arr1=("./dir1/" "./dir2/" "./dir3/" "./dir4/")
 touch ${arr1[0]}file.txt ${arr1[1]}file.txt ${arr1[2]}file.txt ${arr1[3]}file.txt
 
 #End
+

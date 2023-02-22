@@ -27,7 +27,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" SMB1 -Type DWORD -Value 0 -Force
 Set-SmbServerConfiguration -EnableSMB1Protocol $false
 
-# To automate the process I put the call the .ps1 inside a .bat file
-powershell.exe -ExecutionPolicy Bypass -File "C:\Users\marco\Documents\automated.bat"
+# To automate the process I call the .ps1 inside a .bat file
+powershell.exe -ExecutionPolicy Bypass -File "C:\Users\marco\Documents\automated.ps1"
 
 #End

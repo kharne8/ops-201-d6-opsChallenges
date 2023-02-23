@@ -14,4 +14,6 @@ Select-String -Path network_report.txt -Pattern "\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1
 # lastly we remove the txt file that I created
 Remove-Item network_report.txt
 
+# Streach Goals
+
 #End

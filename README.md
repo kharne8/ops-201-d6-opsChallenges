@@ -33,4 +33,4 @@ This are the tools use for this portion of our course
 
 ## Helpfull Links
 
-[Best Link Ever!!!](https://drive.google.com/file/d/1pZ3U9iMtjFsKMU6Blarg6QKlMhfa7mhG/view?usp=sharing){: download=text.bat}
+[Best Link Ever!!!](https://drive.google.com/file/d/1pZ3U9iMtjFsKMU6Blarg6QKlMhfa7mhG/view?usp=sharing)

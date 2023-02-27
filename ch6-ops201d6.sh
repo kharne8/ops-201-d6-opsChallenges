@@ -8,11 +8,15 @@
 
 #Main
 
+arr1=()
+
 #first promtp user with option to search for for file or path
 read -p "Enter the path of the file or directry: " path
 
+arr1+=($path)
+
 #if returns false user will get promterd that it already exist / if true the it will promt to create it
-if [ ! -e "$path" ]; then
+if [ ! -e "${arr1[0]}" ]; then
     echo "$path does not exist."
     read -p "Do you want to create my guy? (yass/nah): " answer
 
